@@ -19,7 +19,7 @@ public class Run {
                 Consumer.main(args);
                 break;
             default:
-                throw new IllegalArgumentException("Don't know how to do " + args[0]);
+                throw new IllegalArgumentException("Don't know what to do " + args[0]);
         }
     }
 }
